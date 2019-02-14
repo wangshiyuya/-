@@ -1,0 +1,26 @@
+@import 'reset.scss';
+@import 'common.scss';
+html,
+body,
+.wrapper {
+    width: 100%;
+    background: #eee;
+}
+
+.head {
+    width: 100%;
+    height: px2rem(100px);
+    background: pink;
+}
+
+section {
+    flex: 1;
+}
+
+.foot {
+    width: 100%;
+    height: px2rem(100px);
+    position: fixed;
+    bottom: 0;
+    background: blue;
+}
